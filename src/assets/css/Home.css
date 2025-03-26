@@ -1,0 +1,58 @@
+.main-section {
+    .MuiButtonBase-root {
+      background: #2f2e2e;
+      text-transform: none;
+      color: white;
+      font-size: 14px; 
+      font-family: Nunito, sans-serif; 
+      font-weight: 700;
+      margin-left: 135px; 
+      border-radius: 15px;
+      border: 2px solid white;
+      transition: all 0.3s ease; 
+    }
+  
+    .MuiButtonBase-root:hover {
+      transform: scale(1.2);  
+    }
+  
+    .MuiButtonBase-root:focus {
+      outline: none; 
+      box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3); 
+    }
+  }
+  
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    h3{
+        font-weight: 400;
+        font-size: 22px;
+        color: black;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 80%;
+        width: 50%;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+}

@@ -6,8 +6,8 @@ import "../assets/css/Header.css"
 export default function Header() {
   return (
     <>
-      <MUI_C.Box>
-        <MUI_C.Grid container spacing={3} >
+   
+        <MUI_C.Grid container spacing={3} className="mainContainer" >
           <MUI_C.Grid item xs={3} >
             <img src={Logo} alt="Logo" className="logo" />
           </MUI_C.Grid>
@@ -41,7 +41,6 @@ export default function Header() {
             </MUI_C.List>
           </MUI_C.Grid>
         </MUI_C.Grid>
-      </MUI_C.Box>
     </>
   )
 }

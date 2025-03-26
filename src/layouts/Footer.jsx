@@ -1,9 +1,7 @@
-
-
 export default function Footer() {
   return (
     <>
-      <h1>Footer</h1>
+      <h1>  ©Copyright 2023. All rights are reserved by Sachin Sharma</h1>
     </>
   )
 }
