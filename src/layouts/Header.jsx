@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom"
 import { MUI_C } from "../lib/materialUI.jsx"
 import Logo from "../assets/images/Logo.gif"
-import "../assets/css/MainNavigation.css"
+import "../assets/css/Header.css"
 
-export default function MainNavigation() {
+export default function Header() {
   return (
     <>
       <MUI_C.Box>

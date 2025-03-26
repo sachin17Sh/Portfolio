@@ -1,10 +1,10 @@
 import RootLayout from "./components/Root.jsx"
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
-import Home from "./components/Home.jsx"
-import About from "./components/About.jsx"
-import Skills from "./components/Skills.jsx"
-import Projects from "./components/Projects.jsx"
-import Contact from "./components/Contact.jsx"
+import Home from "./pages/Home.jsx"
+import About from "./pages/About.jsx"
+import Skills from "./pages/Skills.jsx"
+import Projects from "./pages/Projects.jsx"
+import Contact from "./pages/Contact.jsx"
 
 
 const router = createBrowserRouter([
