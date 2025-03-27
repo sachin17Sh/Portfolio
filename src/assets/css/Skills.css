@@ -1,0 +1,39 @@
+
+  .skillSection-1 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #ff5722;
+    margin-top: 20px;
+  }
+  .skillSection-2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(92, 240, 18);
+    margin-top: 20px;
+  }
+
+
+  section {
+    margin-top: 40px;
+  }
+  
+  #skill-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: auto;
+        width: 30%;
+    }
+
+    h4{
+        color: rgb(86, 80, 92);
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+  }
