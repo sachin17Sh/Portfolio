@@ -10,9 +10,9 @@ export default function Home() {
         <MUI_C.Grid container spacing={2}>
           <MUI_C.Grid item xs={12} md={6} className="section-1">
             <div>
-              <h3>Hi, I am </h3>
-              <h1>Sachin Sharma</h1>
-              <p>A Frontend Developer/UI Designer</p>
+              <h3 className="fadeIn">Hi, I am </h3>
+              <h1 className="slideIn">Sachin Sharma</h1>
+              <p className="fadeIn" >A Frontend Developer/UI Designer</p>
             </div>
           </MUI_C.Grid>
           <MUI_C.Grid item xs={12} md={6} className="section-2">

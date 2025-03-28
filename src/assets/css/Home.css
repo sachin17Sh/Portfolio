@@ -33,18 +33,18 @@
   text-align: center;
 }
 
-h1 {
+.section-1 h1 {
   font-weight: 700;
   font-size: 40px;
 }
 
-h3 {
+.section-1 h3 {
   font-weight: 400;
   font-size: 22px;
   color: black;
 }
 
-p {
+.section-1 p {
   font-weight: 700;
   font-size: 24px;
   color: rgb(47, 210, 255);
@@ -93,6 +93,7 @@ p {
   }
 }
 
+
 @media (max-width: 768px) {
   .MuiButtonBase-root {
     margin-left: 0;
@@ -127,3 +128,4 @@ p {
     font-size: 18px;
   }
 }
+
