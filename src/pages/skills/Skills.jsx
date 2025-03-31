@@ -10,6 +10,7 @@ import Redux from "../../assets/images/skills/Redux.svg";
 import Wordpress from "../../assets/images/skills/Wordpress.svg";
 import { MUI_C } from "../../lib/materialUI";
 import SkilData from "./SkilData";
+import Next from "../../assets/images/skills/Next.svg"
 import "../../assets/css/Skills.css";
 
 export default function Skills() {
@@ -37,7 +38,8 @@ export default function Skills() {
           <h2>Learning:</h2>
           <MUI_C.Grid container spacing={2}>
             {[{ img: Mongo, name: 'mongoDB' },
-            { img: Wordpress, name: 'Wordpress' }].map((skill, index) => (
+            { img: Wordpress, name: 'Wordpress' },
+            { img: Next, name: 'Next.JS' }].map((skill, index) => (
               <MUI_C.Grid item xs={6} sm={4} md={3} key={index} className="skillImage scaleIn" >
                 <SkilData id="skill-item">
                   <img src={skill.img} alt={skill.name} />
