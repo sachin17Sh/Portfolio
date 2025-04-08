@@ -1,0 +1,43 @@
+article {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    perspective: 1000px;
+
+    
+.textcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+}
+
+div {
+    background-color: gainsboro;
+    border-radius: 2rem;
+    box-shadow: inset 10px 10px 10px #999;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease, box-shadow 0.3s ease;
+}
+
+img {
+    position: absolute;
+    width:55%;
+    transition: transform 1s ease;
+}
+
+/* Apply hover effect on .container */
+.textcontainer:hover div {
+    transform: translateZ(100px) rotateX(75deg);
+    box-shadow: 10px 10px 10px #999, -10px -10px -10px #999;
+}
+
+.textcontainer:hover img {
+    transform: translateY(-80px) translateZ(150px);
+}
+
+}

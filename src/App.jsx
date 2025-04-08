@@ -7,6 +7,7 @@ import Projects from "./pages/projects/Projects.jsx"
 import Contact from "./pages/Contact.jsx"
 
 
+
 const router = createBrowserRouter([
 {
   path: '/',

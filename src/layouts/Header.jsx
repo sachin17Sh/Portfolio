@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { MUI_C } from "../lib/materialUI.jsx"
-import Logo from "../assets/images/Logo.gif"
+import Logo from "../assets/images/S.png"
 import "../assets/css/Header.css"
 
 export default function Header() {
@@ -8,10 +8,10 @@ export default function Header() {
     <>
    
         <MUI_C.Grid container spacing={3} className="mainContainer" >
-          <MUI_C.Grid item xs={3} >
+          <MUI_C.Grid item xs={6} >
             <img src={Logo} alt="Logo" className="logo" />
           </MUI_C.Grid>
-          <MUI_C.Grid item xs={9} >
+          <MUI_C.Grid item xs={6} >
             <MUI_C.List className="nav-list">
               <MUI_C.ListItem>
                 <NavLink to="/" className="navlinks">
